@@ -253,11 +253,13 @@ nav a {
 .jobs-area2 {
   display: flex;
   gap: 30px;
+  padding-bottom: 55px;
 }
 .job-sectors {
   display: flex;
   gap: 30px;
   align-items: center;
+  width: 33%;
 }
 .slack {
   padding: 44px 22px;
@@ -273,6 +275,12 @@ nav a {
   font-weight: 600;
   font-size: 24px;
   line-height: 34px;
+  color: #21202a;
+}
+.slack h3 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
   color: #21202a;
 }
 
@@ -309,7 +317,7 @@ nav a {
   padding: 4px 22px;
   border-radius: 6px;
 }
-.btn-secondery:hover {
+.slack a:hover {
   background-color: #3936c4;
   color: #fff;
 }
@@ -320,4 +328,7 @@ nav a {
 }
 .content-gap {
   margin: 0 60px 0 22px;
+}
+.job_btn a {
+  background-color: #21202a;
 }
