@@ -332,3 +332,40 @@ nav a {
 .job_btn a {
   background-color: #21202a;
 }
+.seeker {
+  padding: 180px 230px;
+}
+.seeker-speech {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.seeker-speech h2 {
+  font-size: 42px;
+  line-height: 52px;
+  padding-bottom: 18px;
+}
+.comments-box {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 70px 0 230px;
+}
+.comments-speech {
+  border: 1px solid #e2e2eb;
+  border-radius: 12px;
+  padding: 44px 22px;
+}
+.comments-speech:hover{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.comments-speech img {
+  display: block;
+}
+.comments-speech q {
+  display: block;
+  padding: 22px 0 44px;
+  color: #545360;
+  font-style: italic;
+}
