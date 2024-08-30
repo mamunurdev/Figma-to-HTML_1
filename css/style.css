@@ -1,302 +1,323 @@
 /* Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
 
 /* Global Styles Starts */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 body {
-    font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 ul,
 li {
-    list-style: none;
+  list-style: none;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .container {
-    max-width: 1170px;
-    margin: 0 auto;
+  max-width: 1170px;
+  margin: 0 auto;
 }
 
 /* Global Styles Ends */
 
 .header-section {
-    background-color: #FFFCF5;
-    padding: 40px 48px;
+  background-color: #fffcf5;
+  padding: 40px 48px;
 }
 
 .header-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 nav ul {
-    display: flex;
-    gap: 42px;
+  display: flex;
+  gap: 42px;
 }
 
 nav a {
-    font-size: 16px;
-    font-weight: 400;
-    color: #6A6E78;
+  font-size: 16px;
+  font-weight: 400;
+  color: #6a6e78;
 }
 
 .active {
-    font-weight: 600;
-    color: #3936C4;
-    transition: 0.3s;
+  font-weight: 600;
+  color: #3936c4;
+  transition: 0.3s;
 }
 
 .btn {
-    padding: 13px 30px;
-    font-size: 16px;
-    font-weight: 600;
-    color: #212832;
-    border: 1.2px solid #E1E5E8;
-    border-radius: 6px;
+  padding: 13px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #212832;
+  border: 1.2px solid #e1e5e8;
+  border-radius: 6px;
 }
 
 .btn-login {
-    border: none;
+  border: none;
 }
 
 .hero-section {
-    background-color: #FFFCF5;
+  background-color: #fffcf5;
 }
 
 .hero-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero-left {
-    width: 45%;
+  width: 45%;
 }
 
 .hero-left h1 {
-    font-size: 70px;
-    font-weight: 600;
-    color: #21202A;
-    line-height: 80px;
+  font-size: 70px;
+  font-weight: 600;
+  color: #21202a;
+  line-height: 80px;
 }
 
 .hero-left p {
-    font-size: 18px;
-    color: #545360;
-    padding: 28px 0 36px 0;
+  font-size: 18px;
+  color: #545360;
+  padding: 28px 0 36px 0;
 }
 
 .btn-primary {
-    background-color: #3936C4;
-    color: #FFF;
-    font-weight: 600;
-    font-size: 18px;
-    padding: 15px 33px;
-    border-radius: 8px;
+  background-color: #3936c4;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 15px 33px;
+  border-radius: 8px;
 }
 
 .associate-section {
-    padding: 100px 0 140px;
-    text-align: center;
+  padding: 100px 0 140px;
+  text-align: center;
 }
 
 .associate-section h2 {
-    font-weight: 700;
-    font-size: 32px;
-    color: #21202A;
+  font-weight: 700;
+  font-size: 32px;
+  color: #21202a;
 }
 
 .associate-image {
-    display: flex;
-    gap: 60px;
-    justify-content: center;
-    align-items: center;
-    padding-top: 38px;
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 38px;
 }
 
 .works-container h2 {
-    font-weight: 600;
-    font-size: 42px;
-    color: #21202A;
-    text-align: center;
+  font-weight: 600;
+  font-size: 42px;
+  color: #21202a;
+  text-align: center;
 }
 
-.works-container>p {
-    font-size: 16px;
-    color: #545360;
-    line-height: 28px;
-    text-align: center;
-    padding: 18px 0 70px;
+.works-container > p {
+  font-size: 16px;
+  color: #545360;
+  line-height: 28px;
+  text-align: center;
+  padding: 18px 0 70px;
 }
 
 .works-item {
-    display: flex;
-    gap: 30px;
+  display: flex;
+  gap: 30px;
 }
 
 .profile,
 .cv,
 .schedule {
-    border: 1px solid #E4E4ED;
-    border-radius: 12px;
-    padding: 38px 28px;
+  border: 1px solid #e4e4ed;
+  border-radius: 12px;
+  padding: 38px 28px;
 }
 
 .profile:hover,
 .cv:hover,
 .schedule:hover {
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .profile:hover a,
 .cv:hover a,
 .schedule:hover a {
-    color: #3936C4;
+  color: #3936c4;
 }
 
 .works-item h3 {
-    font-weight: 600;
-    font-size: 24px;
-    color: #21202A;
-    padding: 36px 0 18px;
+  font-weight: 600;
+  font-size: 24px;
+  color: #21202a;
+  padding: 36px 0 18px;
 }
 
 .works-item p {
-    font-size: 16px;
-    color: #545360;
-    padding-bottom: 18px;
+  font-size: 16px;
+  color: #545360;
+  padding-bottom: 18px;
 }
 
 .works-item a {
-    color: #21202A;
-    font-weight: 600;
-    font-size: 16px;
+  color: #21202a;
+  font-weight: 600;
+  font-size: 16px;
 }
 
 .dream-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .dream-section {
-    padding: 180px 0;
+  padding: 180px 0;
 }
 
 .dream-content {
-    width: 42%;
+  width: 42%;
 }
 
 .dream-content h2 {
-    font-weight: 600;
-    font-size: 42px;
-    color: #21202A;
-    line-height: 52px;
+  font-weight: 600;
+  font-size: 42px;
+  color: #21202a;
+  line-height: 52px;
 }
 
 .dream-content p {
-    font-size: 16px;
-    color: #545360;
-    line-height: 28px;
-    padding: 18px 0 28px;
+  font-size: 16px;
+  color: #545360;
+  line-height: 28px;
+  padding: 18px 0 28px;
 }
 
 .combine-tik {
-    padding-bottom: 38px;
+  padding-bottom: 38px;
 }
 
 .tik-mark h3 {
-    display: inline-block;
-    padding: 6px 0 6px 8px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 28px;
-    color: #21202A;
+  display: inline-block;
+  padding: 6px 0 6px 8px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #21202a;
 }
 
 .job-container {
-    text-align: center;
+  text-align: center;
 }
 
 .job-container h2 {
-    font-weight: 600;
-    font-size: 42px;
-    color: #21202A;
-    line-height: 52px;
+  font-weight: 600;
+  font-size: 42px;
+  color: #21202a;
+  line-height: 52px;
 }
 
-.job-container p {
-    font-size: 16px;
-    color: #545360;
-    line-height: 28px;
-    padding: 18px 0 70px;
+.job-container > p {
+  font-size: 16px;
+  color: #545360;
+  line-height: 28px;
+  padding: 18px 0 70px;
 }
-
+.jobs-area1 {
+  display: flex;
+  gap: 30px;
+  padding: 0 0 42px;
+}
+.jobs-area2 {
+  display: flex;
+  gap: 30px;
+}
 .job-sectors {
-    display: flex;
-    gap: 30px;
-    align-items: center;
+  display: flex;
+  gap: 30px;
+  align-items: center;
 }
-
 .slack {
-    padding: 44px 22px;
-    border: 1px solid #E2E2EB;
-    border-radius: 18px;
-    text-align: start;
-    width: 33%;
+  padding: 44px 22px;
+  border: 1px solid #e2e2eb;
+  border-radius: 18px;
+  text-align: start;
 }
 
+.slack:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
 .slack h2 {
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 34px;
-    color: #21202A;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 34px;
+  color: #21202a;
 }
 
 .place-time {
-    display: flex;
-    align-items: center;
-    gap: 28px;
-    padding: 26px 0 58px;
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  padding: 26px 0 54px;
 }
 
 .place-time h5 {
-    display: inline-block;
-    font-weight: 400;
-    font-size: 16px;
-    color: #545360;
-    line-height: 28px;
-    padding-left: 6px;
+  display: inline-block;
+  font-weight: 400;
+  font-size: 16px;
+  color: #545360;
+  line-height: 28px;
+  padding-left: 6px;
 }
 
 .place-time h4 {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 28px;
-    color: #FF8100;
-    background-color: #FFF8F0;
-    border-radius: 6px;
-    padding: 4px 10px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ff8100;
+  background-color: #fff8f0;
+  border-radius: 6px;
+  padding: 4px 10px;
 }
 
 .btn-secondery {
-    font-weight: 600;
-    background-color: #21202A;
-    color: #FFF;
-    padding: 4px 22px;
-    border-radius: 6px;
+  font-weight: 600;
+  background-color: #21202a;
+  color: #fff;
+  padding: 4px 22px;
+  border-radius: 6px;
+}
+.btn-secondery:hover {
+  background-color: #3936c4;
+  color: #fff;
+}
+.slack-blw {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.content-gap {
+  margin: 0 60px 0 22px;
 }
