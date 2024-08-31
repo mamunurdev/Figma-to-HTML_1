@@ -392,9 +392,7 @@ nav a {
 }
 .footer {
   margin-top: 180px;
-  background-image: url(/images/BG.png);
-  background-repeat: no-repeat;
-  background-size: 100% 458px;
+  background-color: #21202a;
 }
 .footer-container{
   padding: 70px ;
