@@ -333,7 +333,7 @@ nav a {
   background-color: #21202a;
 }
 .seeker {
-  padding: 180px 230px;
+  padding: 180px 0 10px;
 }
 .seeker-speech {
   display: flex;
@@ -357,7 +357,7 @@ nav a {
   border-radius: 12px;
   padding: 44px 22px;
 }
-.comments-speech:hover{
+.comments-speech:hover {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .comments-speech img {
@@ -369,16 +369,51 @@ nav a {
   color: #545360;
   font-style: italic;
 }
-.resume-container{
+.resume-container {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  background-color: #3936c4;
+  border-radius: 12px;
+}
+.resume-text {
+  font-size: 42px;
+  line-height: 52px;
+  color: #fff;
+  padding: 100px 52px;
+}
+.resume-btn {
+  border: 1px solid;
+}
+.resume-btn a {
+  font-size: 18px;
+  background-color: #fff;
+  color: #3936c4;
+}
+.footer {
+  margin-top: 180px;
+  background-image: url(/images/BG.png);
+  background-repeat: no-repeat;
+  background-size: 100% 458px;
+}
+.footer-container{
+  padding: 70px ;
+}
+.con-footer {
   display: flex;
   justify-content: space-between;
-  background-color: #3936C4;
+  align-items: center;
 }
-.resume-text{
+.footer-text h4 {
   font-size: 42px;
   line-height: 52px;
   color: #fff;
 }
-.resume-btn{
-  
+hr{
+  background-color: #3E3C50;
+  margin: 48px 0;
+}
+.footer-nav{
+  color: #B5BAC6;
+  float: right;
 }
